@@ -13,12 +13,32 @@ class Person: NSObject{
     
     var  name: String
     
+    private var weight: String?
+    //重写
     override  init() {
         
         name = "张"
-        
+        print(name)
         super.init()
         
     }
+    
+    
+    //重载  可以给自己的属性  设置
+    init(name: String){
+    
+        self.name = name
+        
+        super.init()
+        
+        
+        setValue("ok", forKey: "111")
+    }
+    
+    
+   // init(dic: NSDictionary) {
+       // super.init()
+        //setValuesForKeys(dic)
+    //}
     
 }

@@ -12,6 +12,8 @@
 		A5438B6C1E31FC5B00241385 /* JsqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5438B6B1E31FC5B00241385 /* JsqViewController.swift */; };
 		A5438BAF1E3204CA00241385 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5438BAE1E3204CA00241385 /* Person.swift */; };
 		A5438BB11E3204DF00241385 /* testMingMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5438BB01E3204DF00241385 /* testMingMin.swift */; };
+		A5438BB41E32091400241385 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5438BB31E32091400241385 /* Student.swift */; };
+		A5438BBA1E3213CD00241385 /* PersonNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5438BB91E3213CD00241385 /* PersonNew.swift */; };
 		FD45D3AD1DDFD6AC00AA4B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45D3AC1DDFD6AC00AA4B76 /* AppDelegate.swift */; };
 		FD45D3AF1DDFD6AC00AA4B76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45D3AE1DDFD6AC00AA4B76 /* ViewController.swift */; };
 		FD45D3B21DDFD6AC00AA4B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD45D3B01DDFD6AC00AA4B76 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		A5438B6B1E31FC5B00241385 /* JsqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsqViewController.swift; sourceTree = "<group>"; };
 		A5438BAE1E3204CA00241385 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A5438BB01E3204DF00241385 /* testMingMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testMingMin.swift; sourceTree = "<group>"; };
+		A5438BB31E32091400241385 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		A5438BB91E3213CD00241385 /* PersonNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonNew.swift; sourceTree = "<group>"; };
 		FD45D3A91DDFD6AC00AA4B76 /* learnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD45D3AC1DDFD6AC00AA4B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD45D3AE1DDFD6AC00AA4B76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 		A5438BAD1E32049700241385 /* 刀哥2天 */ = {
 			isa = PBXGroup;
 			children = (
+				A5438BB81E3213A900241385 /* 运行时 */,
 				A5438BB21E3205ED00241385 /* 构造函数 */,
 			);
 			name = "刀哥2天";
@@ -70,8 +75,17 @@
 			children = (
 				A5438BAE1E3204CA00241385 /* Person.swift */,
 				A5438BB01E3204DF00241385 /* testMingMin.swift */,
+				A5438BB31E32091400241385 /* Student.swift */,
 			);
 			name = "构造函数";
+			sourceTree = "<group>";
+		};
+		A5438BB81E3213A900241385 /* 运行时 */ = {
+			isa = PBXGroup;
+			children = (
+				A5438BB91E3213CD00241385 /* PersonNew.swift */,
+			);
+			name = "运行时";
 			sourceTree = "<group>";
 		};
 		FD45D3A01DDFD6AC00AA4B76 = {
@@ -191,8 +205,10 @@
 				A5438B6C1E31FC5B00241385 /* JsqViewController.swift in Sources */,
 				FD45D3C01DDFD6DD00AA4B76 /* LXFMenuPageController.swift in Sources */,
 				A5438BB11E3204DF00241385 /* testMingMin.swift in Sources */,
+				A5438BB41E32091400241385 /* Student.swift in Sources */,
 				FD45D3AD1DDFD6AC00AA4B76 /* AppDelegate.swift in Sources */,
 				A5438BAF1E3204CA00241385 /* Person.swift in Sources */,
+				A5438BBA1E3213CD00241385 /* PersonNew.swift in Sources */,
 				A5438AEE1E30CCD300241385 /* MMFuncViewController.swift in Sources */,
 				A5438AA91E307E5200241385 /* testSwift.swift in Sources */,
 			);

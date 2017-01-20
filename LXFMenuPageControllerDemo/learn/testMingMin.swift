@@ -11,9 +11,16 @@ class testMingMin: UIViewController {
 
     
     override func viewDidLoad() {
-//        let p = pers
-       let p =  Person()
-       p.name ="胡梦龙"
+         //        let p = pers
+       let p =  Student()
+        //  p.name ="胡梦龙"
+        //print(p.no)
+        //print(p.name)
+        
+        let p1 = Person(name: "hml")
+        
+        
+        
         
     }
 }

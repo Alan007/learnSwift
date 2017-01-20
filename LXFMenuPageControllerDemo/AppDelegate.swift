@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame:UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
-        window?.rootViewController = JsqViewController()
+        window?.rootViewController = testMingMin()
 //        window?.rootViewController = ViewController()
 
         window?.makeKeyAndVisible()
